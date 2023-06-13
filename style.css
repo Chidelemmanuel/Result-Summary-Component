@@ -59,6 +59,8 @@ span {
 .number h5 {
     position: relative;
     left: 18px;
+    color: hsl(241, 100%, 89%);
+
 }
 
 h1 {
