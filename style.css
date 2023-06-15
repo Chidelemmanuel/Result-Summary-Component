@@ -18,7 +18,6 @@ body {
     margin: auto;
     margin-top: 50px;
     border-radius: 25px;
-    /* border: 2px solid red; */
     box-shadow: 10px 20px 13px hsl(165, 47%, 85%);
 }
 
@@ -77,14 +76,13 @@ p {
 .summary {
     display: flex;
     justify-content: center;
-    /* align-items: center; */
     flex-direction: column; 
-    width: 20vw;
+    width: 25vw;
     height: 60vh;
     padding: 20px 30px;
     border-radius: 20px;
     background-color: hsl(0, 0%, 100%);
-    margin-left: -5px;
+    margin-left: -10px;
 }
 
 section {
@@ -190,7 +188,55 @@ button:active, button:hover {
     color: hsl(228, 45%, 44%); 
 }
 
-@media [max-width: 375px;] {
+@media (max-width: 375px) {
+    .result-summary {
+        display: flex;
+        flex-direction: column;
+        width: 320px;
+        box-shadow: none;
+        box-shadow: 5px 1px 5px hsl(165, 47%, 85%), -5px -1px 5px hsl(165, 47%, 85%);
+        margin-top: 20px;
+    }
 
+    .result {
+        width: 320px;
+        border-top-left-radius: 0px;
+        border-top-right-radius: 0px;
+    }
+
+    h4 {
+        margin-top: -5px;
+    }
+
+    span {
+        width: 125px;
+        height: 160px;
+    }
+
+    .number {
+        position: relative;
+        top: 20px;
+        left: 30px;
+    }
+
+    .summary {
+        justify-content: center;
+        background-color: hsl(0, 0%, 100%);
+        width: 320px;
+        height: 85vh;
+        border-top-left-radius: 0px;
+        border-top-right-radius: 0px;
+        margin-top: -18px;
+        margin-left: 0px;
+    }
+
+    section {
+        width: 255px;
+        margin-top: 10px;
+    }
+
+    button {
+        margin-top: 20px;
+    }
 }
     
