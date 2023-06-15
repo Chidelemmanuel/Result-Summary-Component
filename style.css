@@ -210,12 +210,12 @@ button:active, button:hover {
 
     span {
         width: 125px;
-        height: 160px;
+        height: 220px;
     }
 
     .number {
         position: relative;
-        top: 20px;
+        top: 5px;
         left: 30px;
     }
 
